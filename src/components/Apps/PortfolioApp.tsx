@@ -176,17 +176,19 @@ export const PortfolioApp = () => {
                 <span className="relative flex items-center gap-2">Explore Work <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" /></span>
               </button>
               
-              <a 
+            <a 
                 href="/updated cv 2026. (2).pdf" 
                 download="Saurabh_Kumar_CV_2026.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className={`group px-8 py-4 rounded-full border transition-all flex items-center gap-2 font-medium ${isDark ? 'border-white/20 hover:bg-white/5 text-white' : 'border-black/20 hover:bg-black/5 text-black'}`}
               >
                 <Download size={18} className="text-gray-400 group-hover:text-blue-500 transition-colors" /> Download CV
               </a>
               
               <div className="flex gap-4 ml-auto md:ml-4">
-                <a href="https://github.com/Saurab-hh" className={`w-14 h-14 rounded-full border flex items-center justify-center transition-all ${isDark ? 'border-white/10 text-gray-400 hover:text-white hover:border-white/30 hover:bg-white/5' : 'border-black/10 text-gray-500 hover:text-black hover:border-black/30 hover:bg-black/5'}`}><GithubIcon size={20} /></a>
-                <a href="https://linkedin.com/in/imsaurabhkumar1" className={`w-14 h-14 rounded-full border flex items-center justify-center transition-all ${isDark ? 'border-white/10 text-gray-400 hover:text-white hover:border-white/30 hover:bg-white/5' : 'border-black/10 text-gray-500 hover:text-black hover:border-black/30 hover:bg-black/5'}`}><LinkedinIcon size={20} /></a>
+                <a href="https://github.com/Saurab-hh" target="_blank" rel="noopener noreferrer" className={`w-14 h-14 rounded-full border flex items-center justify-center transition-all ${isDark ? 'border-white/10 text-gray-400 hover:text-white hover:border-white/30 hover:bg-white/5' : 'border-black/10 text-gray-500 hover:text-black hover:border-black/30 hover:bg-black/5'}`}><GithubIcon size={20} /></a>
+                <a href="https://linkedin.com/in/imsaurabhkumar1" target="_blank" rel="noopener noreferrer" className={`w-14 h-14 rounded-full border flex items-center justify-center transition-all ${isDark ? 'border-white/10 text-gray-400 hover:text-white hover:border-white/30 hover:bg-white/5' : 'border-black/10 text-gray-500 hover:text-black hover:border-black/30 hover:bg-black/5'}`}><LinkedinIcon size={20} /></a>
               </div>
             </motion.div>
           </div>
@@ -449,7 +451,7 @@ export const PortfolioApp = () => {
                 Currently exploring new horizons and full-time software engineering roles. Have a project or role in mind?
               </p>
               <a 
-                href="mailto:souravvsing@gmail.com" 
+                href="mailto:sauravsingh7370@gmail.com" 
                 className={`inline-flex items-center gap-3 px-10 py-5 text-lg font-bold rounded-full hover:scale-105 active:scale-95 transition-transform ${isDark ? 'bg-white text-black' : 'bg-black text-white'}`}
               >
                 Start a Conversation <Mail size={20} />
@@ -467,10 +469,10 @@ export const PortfolioApp = () => {
             © {new Date().getFullYear()} Saurabh Kumar.
           </div>
           <div className="flex items-center gap-6">
-            <a href="https://github.com/Saurab-hh" className="text-gray-500 hover:text-white transition group">
+            <a href="https://github.com/Saurab-hh" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition group">
               <GithubIcon size={20} />
             </a>
-            <a href="https://linkedin.com/in/imsaurabhkumar1" className="text-gray-500 hover:text-blue-400 transition group">
+            <a href="https://linkedin.com/in/imsaurabhkumar1" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-400 transition group">
               <LinkedinIcon size={20} />
             </a>
           </div>

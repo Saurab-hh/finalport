@@ -74,7 +74,7 @@ export const StartMenu = () => {
                 </div>
 
                 <div 
-                  onClick={() => window.open('mailto:souravvsing@gmail.com')}
+                  onClick={() => window.open('mailto:sauravsingh7370@gmail.com')}
                   className="flex items-center gap-4 p-3 rounded-xl hover:bg-green-50 dark:hover:bg-green-900/20 cursor-pointer transition border border-transparent hover:border-green-200 dark:hover:border-green-800/50"
                 >
                   <div className="w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/50 flex items-center justify-center text-green-600 dark:text-green-400">
@@ -82,7 +82,7 @@ export const StartMenu = () => {
                   </div>
                   <div>
                     <div className="text-sm font-semibold text-gray-800 dark:text-gray-200">Connect to Me</div>
-                    <div className="text-xs text-gray-500">souravvsing@gmail.com</div>
+                    <div className="text-xs text-gray-500">sauravsingh7370@gmail.com</div>
                   </div>
                 </div>
             </div>

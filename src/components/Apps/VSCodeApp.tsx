@@ -3,7 +3,7 @@ import { Files, Search, GitBranch, Play, Settings, Menu, X, Minus, Square } from
 
 const files = [
   { name: 'app.js', type: 'js', code: 'console.log("Hello IPNEXUS");\n\nfunction fetchIP() {\n  return fetch("https://api.ipify.org?format=json")\n    .then(res => res.json())\n    .then(data => console.log(data.ip));\n}\n\nfetchIP();\n' },
-  { name: 'resume.json', type: 'json', code: '{\n  "name": "Saurabh Kumar",\n  "contact": {\n    "email": "souravvsing@gmail.com",\n    "github": "github.com/Saurab-hh"\n  },\n  "skills": ["JavaScript", "C++", "React.js", "Node.js"]\n}' },
+  { name: 'resume.json', type: 'json', code: '{\n  "name": "Saurabh Kumar",\n  "contact": {\n    "email": "sauravsingh7370@gmail.com",\n    "github": "github.com/Saurab-hh"\n  },\n  "skills": ["JavaScript", "C++", "React.js", "Node.js"]\n}' },
   { name: 'styles.css', type: 'css', code: 'body {\n  margin: 0;\n  padding: 0;\n  background-color: #121212;\n  color: #fff;\n  font-family: inherit;\n}\n\n.app-container {\n  display: flex;\n  flex-direction: column;\n  height: 100vh;\n}\n' }
 ];
 
